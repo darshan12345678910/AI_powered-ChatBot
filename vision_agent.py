@@ -111,7 +111,7 @@ def analyze_image_for_navigation(image_path: str, prompt: str = None) -> str:
         str: The AI-generated navigation response.
     """
     image =PIL.Image.open(image_path)
-    client = genai.Client(api_key="AIzaSyDLXKdgxYTJfDunWPKXNQFr3v_ySfMyF3k")
+    client = genai.Client(api_key="api key")
 
     try:
         # Use default prompt if none provided
